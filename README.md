@@ -13,9 +13,12 @@ https://josephus123.pythonanywhere.com/classificar
 ## Parâmetros:
 
 - **vetor**: Um vetor de 16 posições separado por vírgulas. Correspondente as notas obtidas no seu QUIZ e as disciplinas cursadas no ensino médio, respectivamente:
+- Interesse_* são as notas obtidas pelo quiz e nota_* são as notas do seu curso no médio.
 - "interesse_matematica", "interesse_biologia", "interesse_ciencias_sociais", "interesse_quimica", "interesse_fisica", "interesse_economia", "interesse_direito", "nota_matematica", "nota_biologia", "nota_quimica", "nota_fisica", "nota_economia", "nota_direito", "nota_programacao", "nota_enfermagem", "nota_contabilidade"
 
 ## Exemplos de Integração
+
+- **A Integração será feita após efetuar sua própria página de QUIZ com base ao parâmetros da API**
 
 ### Python
 
@@ -72,3 +75,6 @@ axios.get(url)
     console.error(error);
   });
 ```
+## Considerações Finais:
+- Esta API faz recurso a um Modelo de machine learning pré-definido, caso queira adaptar para sua necessidade, quer para outras ou novas disciplinas quanto para predições de outros fatores, entre em contacto:
+- Email: condepinto2@gmail.com / Whatsapp: 934541438
