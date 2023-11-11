@@ -1,6 +1,6 @@
 # API de Classificação
 
-Esta API permite que você envie um vetor de 16 posições para obter a classificação correspondente e predizer cursos adequados pra usuários no seu website escolar ou acadêmico. Integração em PHP, Python, NodeJS.
+Esta API permite que você envie um vetor de 16 posições para obter a classificação correspondente e predizer para seus usuários os cursos adequados pra fazerem no superior pode usá-la no seu website escolar ou acadêmico. Integração em PHP, Python, NodeJS.
 
 ## Base URL:
 
@@ -12,7 +12,8 @@ https://josephus123.pythonanywhere.com/classificar
 
 ## Parâmetros:
 
-- **vetor**: Um vetor de 16 posições separado por vírgulas.
+- **vetor**: Um vetor de 16 posições separado por vírgulas. Correspondente as notas obtidas no seu QUIZ e as disciplinas cursadas no ensino médio, respectivamente:
+- "interesse_matematica", "interesse_biologia", "interesse_ciencias_sociais", "interesse_quimica", "interesse_fisica", "interesse_economia", "interesse_direito", "nota_matematica", "nota_biologia", "nota_quimica", "nota_fisica", "nota_economia", "nota_direito", "nota_programacao", "nota_enfermagem", "nota_contabilidade"
 
 ## Exemplos de Integração
 
