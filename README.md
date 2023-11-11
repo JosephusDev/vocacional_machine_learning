@@ -1,6 +1,6 @@
 # API de Classificação
 
-Esta API permite que você envie um vetor de 16 posições para obter a classificação correspondente e predizer para seus usuários os cursos adequados pra fazerem no superior pode usá-la no seu website escolar ou acadêmico, antes do usuário se inscrever pode passar por um Quiz e o Modelo de Machine Learning predizer os cursos que seriam melhor para si. Integração em PHP, Python, NodeJS.
+Esta API permite que você envie um vetor de 16 posições para obter a classificação correspondente e predizer para seus usuários os cursos adequados pra fazerem no superior pode usá-la no seu website escolar ou acadêmico, antes do usuário se inscrever pode passar por um Quiz e o Modelo de Machine Learning predizer os cursos que seriam melhor para ele. Integração em PHP, Python, NodeJS.
 
 ## Base URL:
 
