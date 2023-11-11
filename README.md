@@ -54,7 +54,7 @@ print_r($data);
 
 Certifique-se de instalar o módulo axios antes de executar este código: npm install axios
 
-```nodejs
+```javascript
 
 const axios = require('axios');
 
