@@ -35,6 +35,8 @@ print(data)
 
 ### PHP
 
+```php
+
 <?php
 $vetor = [14, 1, 15, 1, 1, 15, 15, 15, 0, 0, 0, 14, 14, 0, 0, 0];
 $vetor_str = implode(',', $vetor);
@@ -46,11 +48,13 @@ $data = json_decode($response, true);
 
 print_r($data);
 ?>
-
+```
 
 ### NODE JS
 
 Certifique-se de instalar o módulo axios antes de executar este código: npm install axios
+
+```nodejs
 
 const axios = require('axios');
 
@@ -66,3 +70,4 @@ axios.get(url)
   .catch(error => {
     console.error(error);
   });
+```
