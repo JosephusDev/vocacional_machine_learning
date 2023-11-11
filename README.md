@@ -18,7 +18,7 @@ https://josephus123.pythonanywhere.com/classificar
 
 ## Exemplos de Integração
 
-- **A Integração será feita após efetuar sua própria página de QUIZ com base ao parâmetros da API**
+- **A Integração será feita após efetuar sua própria página de QUIZ com base ao vetor ou parâmetro da API**
 
 ### Python
 
